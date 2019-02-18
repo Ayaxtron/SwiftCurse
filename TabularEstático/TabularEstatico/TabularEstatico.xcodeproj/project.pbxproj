@@ -13,6 +13,7 @@
 		88914176221B4EEF00BC42EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88914174221B4EEF00BC42EC /* Main.storyboard */; };
 		88914178221B4EF200BC42EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88914177221B4EF200BC42EC /* Assets.xcassets */; };
 		8891417B221B4EF200BC42EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88914179221B4EF200BC42EC /* LaunchScreen.storyboard */; };
+		88914183221B546000BC42EC /* ListaPerritosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88914182221B546000BC42EC /* ListaPerritosTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		88914177221B4EF200BC42EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8891417A221B4EF200BC42EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8891417C221B4EF200BC42EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88914182221B546000BC42EC /* ListaPerritosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPerritosTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				88914177221B4EF200BC42EC /* Assets.xcassets */,
 				88914179221B4EF200BC42EC /* LaunchScreen.storyboard */,
 				8891417C221B4EF200BC42EC /* Info.plist */,
+				88914182221B546000BC42EC /* ListaPerritosTableViewController.swift */,
 			);
 			path = TabularEstatico;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88914173221B4EEF00BC42EC /* SecondViewController.swift in Sources */,
+				88914183221B546000BC42EC /* ListaPerritosTableViewController.swift in Sources */,
 				8891416F221B4EEF00BC42EC /* AppDelegate.swift in Sources */,
 				88914171221B4EEF00BC42EC /* FirstViewController.swift in Sources */,
 			);
