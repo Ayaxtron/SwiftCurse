@@ -10,10 +10,15 @@ import UIKit
 
 class DetallePerritoViewController: UIViewController {
 
+    var razaRecibida = "";
+    @IBOutlet weak var razaSeleccionada: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        razaSeleccionada.text = razaRecibida;
     }
     
 
