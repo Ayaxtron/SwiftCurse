@@ -13,6 +13,7 @@
 		884CCAF62237021B00E0C9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884CCAF42237021B00E0C9E6 /* Main.storyboard */; };
 		884CCAF82237022300E0C9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884CCAF72237022300E0C9E6 /* Assets.xcassets */; };
 		884CCAFB2237022300E0C9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884CCAF92237022300E0C9E6 /* LaunchScreen.storyboard */; };
+		884CCB0322370F4F00E0C9E6 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 884CCB0222370F4F00E0C9E6 /* earth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		884CCAF72237022300E0C9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884CCAFA2237022300E0C9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		884CCAFC2237022300E0C9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884CCB0222370F4F00E0C9E6 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = earth.jpg; path = ../../../../../Downloads/earth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				884CCAEE2237021B00E0C9E6 /* AppDelegate.swift */,
+				884CCB0222370F4F00E0C9E6 /* earth.jpg */,
 				884CCAF02237021B00E0C9E6 /* art.scnassets */,
 				884CCAF22237021B00E0C9E6 /* ViewController.swift */,
 				884CCAF42237021B00E0C9E6 /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				884CCAF12237021B00E0C9E6 /* art.scnassets in Resources */,
+				884CCB0322370F4F00E0C9E6 /* earth.jpg in Resources */,
 				884CCAFB2237022300E0C9E6 /* LaunchScreen.storyboard in Resources */,
 				884CCAF82237022300E0C9E6 /* Assets.xcassets in Resources */,
 				884CCAF62237021B00E0C9E6 /* Main.storyboard in Resources */,

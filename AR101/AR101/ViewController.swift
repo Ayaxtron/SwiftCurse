@@ -36,12 +36,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         node.geometry = box
         node.geometry?.materials = [material]
         node.position = SCNVector3(x: 0, y: 0, z:-1); scene.rootNode.addChildNode(node);
+         
         //Para crear texto
         let scene = SCNScene()
         let texto = SCNText(string: "Hola Mundo", extrusionDepth: 0.2); texto.firstMaterial?.diffuse.contents = UIColor.black
         let node = SCNNode(geometry: texto); node.position = SCNVector3(x:0,y:-1.0,z:-2.0); node.scale = SCNVector3(0.02, 0.02, 0.02); scene.rootNode.addChildNode(node)
         */
-        
+        let scene = SCNScene()
+        let esfera = SCNSphere(radius: 0.2)
+        let materialTierra = SCNMaterial()
+        materialTierra.diffuse.contents = UIImage(named:"earth.jpg"); let tierra = SCNNode()
+        tierra.geometry = esfera; tierra.geometry?.materials = [materialTierra]; tierra.position = SCNVector3(x:0, y:0.2, z:-0.5); scene.rootNode.addChildNode(tierra)
         
         // Set the scene to the view
         sceneView.scene = scene
