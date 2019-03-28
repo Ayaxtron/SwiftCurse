@@ -24,7 +24,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         Mapa.mapType = MKMapType.standard
         //Mapa.mapType = MKMapType.hybrid
         let
-        cl = CLLocationCoordinate2DMake(19.3111992,-99.1481752)
+        cl = CLLocationCoordinate2DMake(1.3111992,-9.1481752)
         
         let delta = CLLocationDegrees(0.01)
         let
